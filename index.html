@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#062e3f" />
+    <meta name="Description" content="Easiest To-do WebApp">
+
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="CSS/main.css">
+
+    <title>Just Do it</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <h1 id="title"> Let's Do it <div id="border"></div>
+        </h1>
+    </div>
+
+    <div id="form">
+        <form>
+
+
+
+            <div id="textbox">
+
+                <input type="text" class="input" size="55" placeholder="Add to Routine">
+            </div>
+
+            <div id="subtn">
+                <button class="btn" type="submit" onclick="addToDO()">Make it Happen</button>
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+    <div>
+
+        <p><span id="datetime"></span></p>
+        <script src="JS/time.js"></script>
+
+    </div>
+
+    <div id="tasklist">
+
+        <ul class="to-do-list">
+
+            <!-- (Basic Format)
+            <div class="todo">
+                // items added to this list 
+                <li></li>
+                <button>delete</button>
+                <button>check</button>
+            </div> -->
+
+
+
+        </ul>
+
+    </div>
+
+    <script src="JS/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
