@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 
+.back-img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
 body {
-    background-image: linear-gradient(1575deg, #d46bc2, #5fd3cd);
+  /*background-image: linear-gradient(1575deg, #d46bc2, #5fd3cd);*/
     /* #363532, rgb(88, 111, 112) */
     color: #ffdfdb;
     font-family: 'Work Sans', sans-serif;
     min-height: 100vh;
-    margin-top: 70px;
+   /* margin-top: 70px;*/
 }
 
 #header, #form, #datetime {
@@ -24,6 +30,7 @@ body {
 #header {
     min-height: 25vh;
     font-size: 3rem;
+
 }
 
 
